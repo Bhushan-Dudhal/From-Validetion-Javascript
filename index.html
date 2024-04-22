@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Validetion</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="abc.html" onsubmit="return validate()">
+        <h1>Form Validetion</h1>
+        <br /><br />
+        <label>Enter your username</label><br />
+        <input type="text" id="u_name" name="" onkeyup="validate()" /><br />
+        <span id="uspan">username is requried</span><br />
+
+        <label>Enter your mo no</label><br />
+        <input type="number" id="u_mb" name="" onkeyup="validate()" /><br />
+        <span id="uspan2">mo no is requried</span><br />
+
+        <label>Enter your password</label><br />
+        <input type="text" id="u_pass" name="" onkeyup="validate()" /><br />
+        <span id="uspan3">password is requried</span><br />
+
+        <label>Enter your confirm password</label><br />
+        <input type="number" id="u_cpass" name="" onkeyup="validate()" /><br />
+        <span id="uspan4">con password is requried</span><br />
+
+        <button type="submit">SAVE</button>
+        <button type="reset">CANCEL</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
